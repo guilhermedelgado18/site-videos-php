@@ -6,3 +6,4 @@
 <?= $this->Form->control('user_id', ['options' => $users]) ?>
 <?= $this->Form->button('Salvar') ?>
 <?= $this->Form->end() ?>
+<?= $this->Html->link('Voltar', ['controller' => 'Videos', 'action' => 'index'], ['class' => 'button']) ?>

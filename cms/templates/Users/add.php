@@ -5,3 +5,4 @@
 <?= $this->Form->control('senha') ?>
 <?= $this->Form->button('Salvar') ?>
 <?= $this->Form->end() ?>
+<?= $this->Html->link('Voltar', ['controller' => 'Users', 'action' => 'index'], ['class' => 'button']) ?>

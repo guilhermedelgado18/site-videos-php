@@ -1,4 +1,5 @@
 <h1>Vídeos</h1>
+<?= $this->Html->link('Voltar à Home', ['controller' => 'Home', 'action' => 'index'], ['class' => 'button']) ?><br><br>
 <?= $this->Html->link('Novo Vídeo', ['action' => 'add']) ?>
 <table>
     <tr>

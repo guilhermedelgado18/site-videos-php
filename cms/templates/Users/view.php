@@ -8,3 +8,4 @@
     <li><?= $this->Html->link($video->titulo, ['controller' => 'Videos', 'action' => 'view', $video->id]) ?></li>
 <?php endforeach; ?>
 </ul>
+<?= $this->Html->link('Voltar', ['controller' => 'Users', 'action' => 'index'], ['class' => 'button']) ?>
